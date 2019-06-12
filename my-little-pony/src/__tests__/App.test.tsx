@@ -12,9 +12,9 @@ describe('<App />', () => {
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  test('loads and display <Calculator />', async () => {
+  test('loads and display <Calculator />', () => {
     const { debug, asFragment, getByTestId } = render(<App />);
-    debug(asFragment());
-    // const calc = getByTestId('calculator')
+    // debug(asFragment());
+    const calc = getByTestId('calculator');
   });
 });
