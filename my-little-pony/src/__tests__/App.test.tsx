@@ -1,9 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { render, cleanup } from '@testing-library/react';
 import App from '../components/App';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+afterEach(cleanup);
+
+describe('<App />', () => {
+  test('renders without crashing', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(<App />, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
+
+  test('loads and display <Calculator />', async () => {
+    const { debug, asFragment, getByTestId } = render(<App />);
+    debug(asFragment());
+    // const calc = getByTestId('calculator')
+  });
 });
