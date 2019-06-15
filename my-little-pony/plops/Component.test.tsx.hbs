@@ -1,0 +1,20 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { render, cleanup } from '@testing-library/react';
+import { {{pascalCase name}} } from '../components/{{pascalCase name}}';
+
+afterEach(cleanup);
+
+describe('<{{pascalCase name}} />', () => {
+  test('renders without crashing', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(<{{pascalCase name}} />, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
+
+  test('loads and display <{{pascalCase name}} />', () => {
+    const { debug, asFragment, getByTestId } = render(<{{pascalCase name}} />);
+    // debug(asFragment());
+    const calc = getByTestId('{{camelCase name}}');
+  });
+});
