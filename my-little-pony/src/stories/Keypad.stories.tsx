@@ -5,4 +5,4 @@ import { Keypad } from '../components/Keypad';
 import '../components/Keypad.css';
 import '../index.css';
 
-storiesOf('Keypad', module).add('default', () => <Keypad />);
+storiesOf('Keypad', module).add('default', () => <Keypad setDisplayValue={() => {}} />);

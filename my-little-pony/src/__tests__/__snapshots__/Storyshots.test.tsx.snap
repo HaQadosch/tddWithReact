@@ -28,6 +28,21 @@ exports[`Storyshots App default 1`] = `
             0
           </p>
         </div>
+        <div
+          className="keypad"
+          data-testid="keypad"
+        >
+          <div
+            className="numbers"
+          >
+            numbers
+          </div>
+          <div
+            className="operators"
+          >
+            operators
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -288,6 +303,21 @@ exports[`Storyshots Calculator default 1`] = `
         >
           0
         </p>
+      </div>
+      <div
+        className="keypad"
+        data-testid="keypad"
+      >
+        <div
+          className="numbers"
+        >
+          numbers
+        </div>
+        <div
+          className="operators"
+        >
+          operators
+        </div>
       </div>
     </div>
   </div>
@@ -823,7 +853,16 @@ exports[`Storyshots Keypad default 1`] = `
       className="keypad"
       data-testid="keypad"
     >
-      Keypad
+      <div
+        className="numbers"
+      >
+        numbers
+      </div>
+      <div
+        className="operators"
+      >
+        operators
+      </div>
     </div>
   </div>
   <button
@@ -988,7 +1027,35 @@ exports[`Storyshots Keypad default 1`] = `
                   &lt;
                   Keypad
                 </span>
-                <span />
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      setDisplayValue
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#170",
+                            }
+                          }
+                        >
+                          setDisplayValue
+                        </span>
+                        }
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
                 <span
                   style={
                     Object {

@@ -1,15 +1,19 @@
 :root {
   --main-font: 'Orbitron', sans-serif;
 
-  --display-background-color: #1d1f1f;
+  --calculator-background-color: #696969;
   --calculator-height: 72%;
   --calculator-width: 36%;
 
+  --display-background-color: #1d1f1f;
   --display-text-color: #23e000;
   --display-text-size: 4em;
   --display-text-weight: 400;
   --display-height: 24%;
   --display-width: 92%;
+
+  --keypad-height: 72%;
+  --keypad-width: 96%;
 }
 
 @media screen and (max-width: 1024px) {
