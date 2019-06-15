@@ -1,0 +1,19 @@
+.display {
+  display: flex;
+  align-items: center;
+
+  padding: 0 4%;
+  height: var(--display-height);
+  width: var(--display-width);
+  background-color: var(--display-background-color);
+}
+
+.displayValue {
+  margin-left: auto;
+  overflow: hidden;
+
+  color: var(--display-text-color);
+  font-size: var(--display-text-size);
+  font-family: var(--main-font);
+  font-weight: var(--display-text-weight);
+}

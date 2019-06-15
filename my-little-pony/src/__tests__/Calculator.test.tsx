@@ -13,7 +13,7 @@ describe('<Calculator />', () => {
   });
 
   test('loads and display <Display />', () => {
-    const { debug, asFragment, getByTestId } = render(<Calculator />);
+    const { getByTestId } = render(<Calculator />);
     getByTestId('display');
   });
 });

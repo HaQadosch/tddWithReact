@@ -1,11 +1,12 @@
-import React /*useState*/ from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
+
 import { Display } from './Display';
 
 type TOperator = 'PLUS' | 'MINUS' | 'MULT' | 'DIV';
 
 export const Calculator = () => {
-  // const [displayValue, setDisplayValue] = useState<string>('')
+  const [displayValue, setDisplayValue] = useState<string>('0');
   // const [numbers, setNumbers] = useState<number[]>([])
   // const [operators, setOperators] = useState<TOperator[]>([])
   // const [selectedOperator, setSelectedOperator] = useState<TOperator | null>()
@@ -13,7 +14,7 @@ export const Calculator = () => {
 
   return (
     <div className='calculator' data-testid='calculator'>
-      <Display />
+      <Display displayValue={displayValue} />
     </div>
   );
 };
