@@ -43,84 +43,7 @@ exports[`Storyshots App default 1`] = `
               <p
                 className="key-value"
               >
-                0
-              </p>
-            </div>
-            <div
-              className="key number"
-              data-testid="key"
-              onClick={[Function]}
-            >
-              <p
-                className="key-value"
-              >
-                1
-              </p>
-            </div>
-            <div
-              className="key number"
-              data-testid="key"
-              onClick={[Function]}
-            >
-              <p
-                className="key-value"
-              >
-                2
-              </p>
-            </div>
-            <div
-              className="key number"
-              data-testid="key"
-              onClick={[Function]}
-            >
-              <p
-                className="key-value"
-              >
-                3
-              </p>
-            </div>
-            <div
-              className="key number"
-              data-testid="key"
-              onClick={[Function]}
-            >
-              <p
-                className="key-value"
-              >
-                4
-              </p>
-            </div>
-            <div
-              className="key number"
-              data-testid="key"
-              onClick={[Function]}
-            >
-              <p
-                className="key-value"
-              >
-                5
-              </p>
-            </div>
-            <div
-              className="key number"
-              data-testid="key"
-              onClick={[Function]}
-            >
-              <p
-                className="key-value"
-              >
-                6
-              </p>
-            </div>
-            <div
-              className="key number"
-              data-testid="key"
-              onClick={[Function]}
-            >
-              <p
-                className="key-value"
-              >
-                7
+                9
               </p>
             </div>
             <div
@@ -142,7 +65,106 @@ exports[`Storyshots App default 1`] = `
               <p
                 className="key-value"
               >
-                9
+                7
+              </p>
+            </div>
+            <div
+              className="key number"
+              data-testid="key"
+              onClick={[Function]}
+            >
+              <p
+                className="key-value"
+              >
+                6
+              </p>
+            </div>
+            <div
+              className="key number"
+              data-testid="key"
+              onClick={[Function]}
+            >
+              <p
+                className="key-value"
+              >
+                5
+              </p>
+            </div>
+            <div
+              className="key number"
+              data-testid="key"
+              onClick={[Function]}
+            >
+              <p
+                className="key-value"
+              >
+                4
+              </p>
+            </div>
+            <div
+              className="key number"
+              data-testid="key"
+              onClick={[Function]}
+            >
+              <p
+                className="key-value"
+              >
+                3
+              </p>
+            </div>
+            <div
+              className="key number"
+              data-testid="key"
+              onClick={[Function]}
+            >
+              <p
+                className="key-value"
+              >
+                2
+              </p>
+            </div>
+            <div
+              className="key number"
+              data-testid="key"
+              onClick={[Function]}
+            >
+              <p
+                className="key-value"
+              >
+                1
+              </p>
+            </div>
+            <div
+              className="key number"
+              data-testid="key"
+              onClick={[Function]}
+            >
+              <p
+                className="key-value"
+              >
+                .
+              </p>
+            </div>
+            <div
+              className="key number"
+              data-testid="key"
+              onClick={[Function]}
+            >
+              <p
+                className="key-value"
+              >
+                0
+              </p>
+            </div>
+            <div
+              className="key number"
+              data-testid="key"
+              onClick={[Function]}
+            >
+              <p
+                className="key-value"
+              >
+                ce
               </p>
             </div>
           </div>
@@ -157,7 +179,18 @@ exports[`Storyshots App default 1`] = `
               <p
                 className="key-value"
               >
-                +
+                /
+              </p>
+            </div>
+            <div
+              className="key operator"
+              data-testid="key"
+              onClick={[Function]}
+            >
+              <p
+                className="key-value"
+              >
+                x
               </p>
             </div>
             <div
@@ -179,18 +212,22 @@ exports[`Storyshots App default 1`] = `
               <p
                 className="key-value"
               >
-                *
+                +
               </p>
             </div>
+          </div>
+          <div
+            className="submit"
+          >
             <div
-              className="key operator"
+              className="key submit"
               data-testid="key"
               onClick={[Function]}
             >
               <p
                 className="key-value"
               >
-                /
+                =
               </p>
             </div>
           </div>
@@ -471,84 +508,7 @@ exports[`Storyshots Calculator default 1`] = `
             <p
               className="key-value"
             >
-              0
-            </p>
-          </div>
-          <div
-            className="key number"
-            data-testid="key"
-            onClick={[Function]}
-          >
-            <p
-              className="key-value"
-            >
-              1
-            </p>
-          </div>
-          <div
-            className="key number"
-            data-testid="key"
-            onClick={[Function]}
-          >
-            <p
-              className="key-value"
-            >
-              2
-            </p>
-          </div>
-          <div
-            className="key number"
-            data-testid="key"
-            onClick={[Function]}
-          >
-            <p
-              className="key-value"
-            >
-              3
-            </p>
-          </div>
-          <div
-            className="key number"
-            data-testid="key"
-            onClick={[Function]}
-          >
-            <p
-              className="key-value"
-            >
-              4
-            </p>
-          </div>
-          <div
-            className="key number"
-            data-testid="key"
-            onClick={[Function]}
-          >
-            <p
-              className="key-value"
-            >
-              5
-            </p>
-          </div>
-          <div
-            className="key number"
-            data-testid="key"
-            onClick={[Function]}
-          >
-            <p
-              className="key-value"
-            >
-              6
-            </p>
-          </div>
-          <div
-            className="key number"
-            data-testid="key"
-            onClick={[Function]}
-          >
-            <p
-              className="key-value"
-            >
-              7
+              9
             </p>
           </div>
           <div
@@ -570,7 +530,106 @@ exports[`Storyshots Calculator default 1`] = `
             <p
               className="key-value"
             >
-              9
+              7
+            </p>
+          </div>
+          <div
+            className="key number"
+            data-testid="key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              6
+            </p>
+          </div>
+          <div
+            className="key number"
+            data-testid="key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              5
+            </p>
+          </div>
+          <div
+            className="key number"
+            data-testid="key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              4
+            </p>
+          </div>
+          <div
+            className="key number"
+            data-testid="key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              3
+            </p>
+          </div>
+          <div
+            className="key number"
+            data-testid="key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              2
+            </p>
+          </div>
+          <div
+            className="key number"
+            data-testid="key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              1
+            </p>
+          </div>
+          <div
+            className="key number"
+            data-testid="key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              .
+            </p>
+          </div>
+          <div
+            className="key number"
+            data-testid="key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              0
+            </p>
+          </div>
+          <div
+            className="key number"
+            data-testid="key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              ce
             </p>
           </div>
         </div>
@@ -585,7 +644,18 @@ exports[`Storyshots Calculator default 1`] = `
             <p
               className="key-value"
             >
-              +
+              /
+            </p>
+          </div>
+          <div
+            className="key operator"
+            data-testid="key"
+            onClick={[Function]}
+          >
+            <p
+              className="key-value"
+            >
+              x
             </p>
           </div>
           <div
@@ -607,18 +677,22 @@ exports[`Storyshots Calculator default 1`] = `
             <p
               className="key-value"
             >
-              *
+              +
             </p>
           </div>
+        </div>
+        <div
+          className="submit"
+        >
           <div
-            className="key operator"
+            className="key submit"
             data-testid="key"
             onClick={[Function]}
           >
             <p
               className="key-value"
             >
-              /
+              =
             </p>
           </div>
         </div>
@@ -1506,84 +1580,7 @@ exports[`Storyshots Keypad default 1`] = `
           <p
             className="key-value"
           >
-            0
-          </p>
-        </div>
-        <div
-          className="key number"
-          data-testid="key"
-          onClick={[Function]}
-        >
-          <p
-            className="key-value"
-          >
-            1
-          </p>
-        </div>
-        <div
-          className="key number"
-          data-testid="key"
-          onClick={[Function]}
-        >
-          <p
-            className="key-value"
-          >
-            2
-          </p>
-        </div>
-        <div
-          className="key number"
-          data-testid="key"
-          onClick={[Function]}
-        >
-          <p
-            className="key-value"
-          >
-            3
-          </p>
-        </div>
-        <div
-          className="key number"
-          data-testid="key"
-          onClick={[Function]}
-        >
-          <p
-            className="key-value"
-          >
-            4
-          </p>
-        </div>
-        <div
-          className="key number"
-          data-testid="key"
-          onClick={[Function]}
-        >
-          <p
-            className="key-value"
-          >
-            5
-          </p>
-        </div>
-        <div
-          className="key number"
-          data-testid="key"
-          onClick={[Function]}
-        >
-          <p
-            className="key-value"
-          >
-            6
-          </p>
-        </div>
-        <div
-          className="key number"
-          data-testid="key"
-          onClick={[Function]}
-        >
-          <p
-            className="key-value"
-          >
-            7
+            9
           </p>
         </div>
         <div
@@ -1605,7 +1602,106 @@ exports[`Storyshots Keypad default 1`] = `
           <p
             className="key-value"
           >
-            9
+            7
+          </p>
+        </div>
+        <div
+          className="key number"
+          data-testid="key"
+          onClick={[Function]}
+        >
+          <p
+            className="key-value"
+          >
+            6
+          </p>
+        </div>
+        <div
+          className="key number"
+          data-testid="key"
+          onClick={[Function]}
+        >
+          <p
+            className="key-value"
+          >
+            5
+          </p>
+        </div>
+        <div
+          className="key number"
+          data-testid="key"
+          onClick={[Function]}
+        >
+          <p
+            className="key-value"
+          >
+            4
+          </p>
+        </div>
+        <div
+          className="key number"
+          data-testid="key"
+          onClick={[Function]}
+        >
+          <p
+            className="key-value"
+          >
+            3
+          </p>
+        </div>
+        <div
+          className="key number"
+          data-testid="key"
+          onClick={[Function]}
+        >
+          <p
+            className="key-value"
+          >
+            2
+          </p>
+        </div>
+        <div
+          className="key number"
+          data-testid="key"
+          onClick={[Function]}
+        >
+          <p
+            className="key-value"
+          >
+            1
+          </p>
+        </div>
+        <div
+          className="key number"
+          data-testid="key"
+          onClick={[Function]}
+        >
+          <p
+            className="key-value"
+          >
+            .
+          </p>
+        </div>
+        <div
+          className="key number"
+          data-testid="key"
+          onClick={[Function]}
+        >
+          <p
+            className="key-value"
+          >
+            0
+          </p>
+        </div>
+        <div
+          className="key number"
+          data-testid="key"
+          onClick={[Function]}
+        >
+          <p
+            className="key-value"
+          >
+            ce
           </p>
         </div>
       </div>
@@ -1620,7 +1716,18 @@ exports[`Storyshots Keypad default 1`] = `
           <p
             className="key-value"
           >
-            +
+            /
+          </p>
+        </div>
+        <div
+          className="key operator"
+          data-testid="key"
+          onClick={[Function]}
+        >
+          <p
+            className="key-value"
+          >
+            x
           </p>
         </div>
         <div
@@ -1642,18 +1749,22 @@ exports[`Storyshots Keypad default 1`] = `
           <p
             className="key-value"
           >
-            *
+            +
           </p>
         </div>
+      </div>
+      <div
+        className="submit"
+      >
         <div
-          className="key operator"
+          className="key submit"
           data-testid="key"
           onClick={[Function]}
         >
           <p
             className="key-value"
           >
-            /
+            =
           </p>
         </div>
       </div>
@@ -1845,6 +1956,59 @@ exports[`Storyshots Keypad default 1`] = `
                           setDisplayValue
                         </span>
                         }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      selectOperator
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#170",
+                            }
+                          }
+                        >
+                          selectOperator
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      displayValue
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          
+                        </span>
+                        "
                       </span>
                     </span>
                      

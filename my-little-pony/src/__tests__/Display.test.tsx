@@ -6,7 +6,7 @@ import { Display } from '../components/Display';
 afterEach(cleanup);
 
 describe('<Display />', () => {
-  const displayValue = 1;
+  const displayValue = '1';
 
   test('renders without crashing', () => {
     const div = document.createElement('div');
