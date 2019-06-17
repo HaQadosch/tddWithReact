@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { render, cleanup } from '@testing-library/react';
 import App from '../components/App';
+import 'jest-dom/extend-expect';
 
 afterEach(cleanup);
 
@@ -13,8 +14,8 @@ describe('<App />', () => {
   });
 
   test('loads and display <Calculator />', () => {
-    const { debug, asFragment, getByTestId } = render(<App />);
-    // debug(asFragment());
+    const { getByTestId } = render(<App />);
     const calc = getByTestId('calculator');
+    expect(calc).toBeInTheDocument();
   });
 });
