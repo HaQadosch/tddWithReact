@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { render, cleanup } from '@testing-library/react';
+import 'jest-dom/extend-expect';
+
 import { Calculator } from '../components/Calculator';
 
 afterEach(cleanup);
@@ -14,6 +16,7 @@ describe('<Calculator />', () => {
 
   test('loads and display <Display />', () => {
     const { getByTestId } = render(<Calculator />);
-    getByTestId('display');
+    const display = getByTestId('display');
+    expect(display).toBeInTheDocument();
   });
 });

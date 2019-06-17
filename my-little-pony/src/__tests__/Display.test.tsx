@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { render, cleanup } from '@testing-library/react';
+import 'jest-dom/extend-expect';
+
 import { Display } from '../components/Display';
 
 afterEach(cleanup);
@@ -16,6 +18,7 @@ describe('<Display />', () => {
 
   test('loads and display <Display />', () => {
     const { getByTestId } = render(<Display displayValue={displayValue} />);
-    getByTestId('display');
+    const display = getByTestId('display');
+    expect(display).toBeInTheDocument();
   });
 });
