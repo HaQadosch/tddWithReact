@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { render, cleanup } from '@testing-library/react';
+import 'jest-dom/extend-expect';
+
 import { {{pascalCase name}} } from '../components/{{pascalCase name}}';
 
 afterEach(cleanup);
@@ -13,8 +15,8 @@ describe('<{{pascalCase name}} />', () => {
   });
 
   test('loads and display <{{pascalCase name}} />', () => {
-    const { debug, asFragment, getByTestId } = render(<{{pascalCase name}} />);
-    // debug(asFragment());
+    const { getByTestId } = render(<{{pascalCase name}} />);
     const calc = getByTestId('{{camelCase name}}');
+    expect(calc).toBeInTheDocument();
   });
 });

@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { render, cleanup, fireEvent } from '@testing-library/react';
+import 'jest-dom/extend-expect';
+
 import { Keypad } from '../components/Keypad';
 
 afterEach(cleanup);
@@ -17,7 +19,8 @@ describe('<Keypad />', () => {
 
   test('loads and display <Keypad />', () => {
     const { getByTestId } = render(<Keypad setDisplayValue={setDisplayValue} selectOperator={selectOperator} />);
-    getByTestId('keypad');
+    const keypad = getByTestId('keypad');
+    expect(keypad).toBeInTheDocument();
   });
 
   test('fire event when clicked', () => {

@@ -4,7 +4,9 @@
   "private": true,
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && CI=true npm run test"
+      "pre-commit": "pretty-quick --staged && CI=true npm run test",
+      "//pre-commit_MAC": "pretty-quick --staged && CI=true npm run test",
+      "//pre-commit_WIN": "pretty-quick --staged && set CI=tru&&npm run test"
     }
   },
   "prettier": {

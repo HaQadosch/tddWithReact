@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { render, cleanup, fireEvent } from '@testing-library/react';
+import 'jest-dom/extend-expect';
+
 import { Key } from '../components/Key';
 
 afterEach(cleanup);
@@ -22,8 +24,8 @@ describe('<Key />', () => {
 
   test('loads and display <Key />', () => {
     const { getByTestId, getByText } = render(<Key {...keyProps} />);
-    getByTestId('key');
-    getByText('1');
+    expect(getByTestId('key')).toBeInTheDocument();
+    expect(getByText('1')).toBeInTheDocument();
   });
 
   test('fires event when clicked', () => {
