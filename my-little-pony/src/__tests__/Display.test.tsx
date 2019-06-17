@@ -15,8 +15,7 @@ describe('<Display />', () => {
   });
 
   test('loads and display <Display />', () => {
-    const { debug, asFragment, getByTestId } = render(<Display displayValue={displayValue} />);
-    // debug(asFragment());
-    const calc = getByTestId('display');
+    const { getByTestId } = render(<Display displayValue={displayValue} />);
+    getByTestId('display');
   });
 });

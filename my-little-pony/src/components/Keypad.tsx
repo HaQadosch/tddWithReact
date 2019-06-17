@@ -1,17 +1,15 @@
 import React from 'react';
 import './Keypad.css';
 import { Key } from './Key';
-
+import { ICalculator } from './Calculator';
 interface IKeypadProps {
-  setDisplayValue: React.Dispatch<React.SetStateAction<string>>;
-  selectOperator: React.Dispatch<React.SetStateAction<string>>;
-  displayValue: string;
+  setKeyEvent: React.Dispatch<React.SetStateAction<ICalculator>>;
 }
 
 const numbers = ['9', '8', '7', '6', '5', '4', '3', '2', '1', '.', '0'];
 const operators = ['/', 'x', '-', '+'];
 
-export const Keypad: React.FC<IKeypadProps> = ({ setDisplayValue, displayValue, selectOperator }) => {
+export const Keypad: React.FC<IKeypadProps> = ({ setKeyEvent }) => {
   const handleNumberClick = (number: string) => {
     let newDisplay = '';
     if (number === '.' && /\./.test(displayValue)) {

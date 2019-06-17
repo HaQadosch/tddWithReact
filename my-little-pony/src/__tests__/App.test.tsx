@@ -13,8 +13,7 @@ describe('<App />', () => {
   });
 
   test('loads and display <Calculator />', () => {
-    const { debug, asFragment, getByTestId } = render(<App />);
-    // debug(asFragment());
-    const calc = getByTestId('calculator');
+    const { getByTestId } = render(<App />);
+    getByTestId('calculator');
   });
 });
