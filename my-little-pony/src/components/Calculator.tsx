@@ -4,12 +4,29 @@ import './Calculator.css';
 import { Display } from './Display';
 import { Keypad } from './Keypad';
 
-type TOperator = 'PLUS' | 'MINUS' | 'MULT' | 'DIV' | 'CE' | 'SUBMIT';
-type TDisplay = '9' | '8' | '7' | '6' | '5' | '4' | '3' | '2' | '1' | '.' | '0';
+type TOperator = 'OPERATOR' | 'CE' | 'SUBMIT' | 'NUMBER';
+export type TDisplay =
+  | '9'
+  | '8'
+  | '7'
+  | '6'
+  | '5'
+  | '4'
+  | '3'
+  | '2'
+  | '1'
+  | '.'
+  | '0'
+  | '/'
+  | 'x'
+  | '-'
+  | '+'
+  | 'CE'
+  | '=';
 
 export interface ICalculator {
-  action: TOperator | TDisplay;
-  payload: string;
+  action: TOperator;
+  payload: TDisplay;
 }
 
 export const Calculator: React.FC = () => {

@@ -7,31 +7,25 @@ import { Keypad } from '../components/Keypad';
 
 afterEach(cleanup);
 
-const setDisplayValue = jest.fn(() => '');
-const selectOperator = jest.fn(() => '');
-let displayValue = '';
+const setKeyEvent = jest.fn();
 
 describe('<Keypad />', () => {
   test('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Keypad setDisplayValue={setDisplayValue} selectOperator={selectOperator} displayValue='1' />, div);
+    ReactDOM.render(<Keypad setKeyEvent={setKeyEvent} />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
   test('loads and display <Keypad />', () => {
-    const { getByTestId } = render(
-      <Keypad setDisplayValue={setDisplayValue} selectOperator={selectOperator} displayValue='1' />,
-    );
+    const { getByTestId } = render(<Keypad setKeyEvent={setKeyEvent} />);
     const keypad = getByTestId('keypad');
     expect(keypad).toBeInTheDocument();
   });
 
   test('fire event when clicked', () => {
-    const { getAllByTestId } = render(
-      <Keypad setDisplayValue={setDisplayValue} selectOperator={selectOperator} displayValue='1' />,
-    );
+    const { getAllByTestId } = render(<Keypad setKeyEvent={setKeyEvent} />);
     const calc = getAllByTestId('key');
     fireEvent.click(calc[0]);
-    expect(setDisplayValue).toBeCalled();
+    expect(setKeyEvent).toBeCalled();
   });
 });

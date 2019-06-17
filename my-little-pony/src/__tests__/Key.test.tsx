@@ -8,13 +8,10 @@ import { Key } from '../components/Key';
 afterEach(cleanup);
 
 describe('<Key />', () => {
-  let clicked = false;
   const keyProps = {
     value: '1',
     type: 'number',
-    action: jest.fn(() => {
-      clicked = true;
-    }),
+    action: jest.fn(),
   };
   test('renders without crashing', () => {
     const div = document.createElement('div');
@@ -32,6 +29,5 @@ describe('<Key />', () => {
     const { getByTestId } = render(<Key {...keyProps} />);
     fireEvent.click(getByTestId('key'));
     expect(keyProps.action).toBeCalled();
-    expect(clicked).toBeTruthy();
   });
 });
